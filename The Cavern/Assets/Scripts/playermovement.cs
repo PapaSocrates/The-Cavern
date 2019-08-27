@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playermovement : MonoBehaviour
 {
+    SpriteRenderer render;
     Animator anim;
     Rigidbody2D rb;
     public float velocity;
@@ -30,11 +31,14 @@ public class playermovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        render = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         movright = false;
         movleft = false;
         jump = false;
         frenar = false;
+        anim.SetBool("Idle", true);
     }
 
     // Update is called once per frame
@@ -47,6 +51,8 @@ public class playermovement : MonoBehaviour
             movright = false;
             movleft = false;
             frenar = true;
+            anim.SetBool("Walk", false);
+            anim.SetBool("Idle", true);
         }
 
 
@@ -55,7 +61,9 @@ public class playermovement : MonoBehaviour
             movleft = false;
             movright = true;
             frenar = false;
-
+            render.flipX = false;
+            anim.SetBool("Idle", false);
+            anim.SetBool("Walk", true);
         }
 
         else if (Input.GetKey(KeyCode.A))
@@ -63,14 +71,18 @@ public class playermovement : MonoBehaviour
             movright = false;
             movleft = true;
             frenar = false;
-
+            render.flipX = true;
+            anim.SetBool("Idle", false);
+            anim.SetBool("Walk", true);
         }
 
 
         if (Input.GetKeyDown(KeyCode.W ) || Input.GetKeyDown(KeyCode.Space))
         {
             jump = true;
-
+            anim.SetBool("Idle", false);
+            anim.SetBool("Walk", false);
+            anim.SetTrigger("Jump");
         }
 
         if (rb.velocity.y < fallingpoint && !grounded && rb.velocity.y > -maxdropvelocity)
