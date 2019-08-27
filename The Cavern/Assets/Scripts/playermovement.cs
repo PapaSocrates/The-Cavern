@@ -51,8 +51,6 @@ public class playermovement : MonoBehaviour
             movright = false;
             movleft = false;
             frenar = true;
-            anim.SetBool("Walk", false);
-            anim.SetBool("Idle", true);
         }
 
 
@@ -62,8 +60,11 @@ public class playermovement : MonoBehaviour
             movright = true;
             frenar = false;
             render.flipX = false;
-            anim.SetBool("Idle", false);
-            anim.SetBool("Walk", true);
+            if (grounded)
+            {
+                anim.SetBool("Idle", false);
+                anim.SetBool("Walk", true);
+            }
         }
 
         else if (Input.GetKey(KeyCode.A))
@@ -72,17 +73,17 @@ public class playermovement : MonoBehaviour
             movleft = true;
             frenar = false;
             render.flipX = true;
-            anim.SetBool("Idle", false);
-            anim.SetBool("Walk", true);
+            if (grounded)
+            {
+                anim.SetBool("Idle", false);
+                anim.SetBool("Walk", true);
+            }
         }
 
 
         if (Input.GetKeyDown(KeyCode.W ) || Input.GetKeyDown(KeyCode.Space))
         {
-            jump = true;
-            anim.SetBool("Idle", false);
-            anim.SetBool("Walk", false);
-            anim.SetTrigger("Jump");
+            jump = true;          
         }
 
         if (rb.velocity.y < fallingpoint && !grounded && rb.velocity.y > -maxdropvelocity)
@@ -122,18 +123,25 @@ public class playermovement : MonoBehaviour
         if (hitsuelo.collider != null || hitsuelo1.collider != null || hitsuelo2.collider != null)
         {
             grounded = true;
-
+            anim.SetBool("Jump", false);
+            anim.SetBool("Walk", false);
+            anim.SetBool("Idle", true);
         }
         else
         {
             grounded = false;
-
+            anim.SetBool("Idle", false);
+            anim.SetBool("Walk", false);
+            anim.SetBool("Jump", true);
         }
 
 
         if (jump && grounded)
         {
             rb.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
+            anim.SetBool("Idle", false);
+            anim.SetBool("Walk", false);
+            anim.SetBool("Jump", true);
             jump = false;
         }
 
