@@ -30,7 +30,6 @@ public class playermovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         movright = false;
         movleft = false;
@@ -56,8 +55,7 @@ public class playermovement : MonoBehaviour
             movleft = false;
             movright = true;
             frenar = false;
-            anim.SetBool("Idle", false);
-            anim.SetBool("Walk", true);
+
         }
 
         else if (Input.GetKey(KeyCode.A))
@@ -65,17 +63,14 @@ public class playermovement : MonoBehaviour
             movright = false;
             movleft = true;
             frenar = false;
-            anim.SetBool("Idle", false);
-            anim.SetBool("Walk", true);
+
         }
 
 
         if (Input.GetKeyDown(KeyCode.W ) || Input.GetKeyDown(KeyCode.Space))
         {
             jump = true;
-            anim.SetBool("Idle", false);
-            anim.SetBool("Walk", false);
-            anim.SetTrigger("Jump");
+
         }
 
         if (rb.velocity.y < fallingpoint && !grounded && rb.velocity.y > -maxdropvelocity)
@@ -115,13 +110,12 @@ public class playermovement : MonoBehaviour
         if (hitsuelo.collider != null || hitsuelo1.collider != null || hitsuelo2.collider != null)
         {
             grounded = true;
-            anim.SetBool("Idle", true);
+
         }
         else
         {
             grounded = false;
-            anim.SetBool("Idle", false);
-            anim.SetBool("Walk", false);
+
         }
 
 
@@ -131,10 +125,6 @@ public class playermovement : MonoBehaviour
             jump = false;
         }
 
-        else if (grounded)
-        {
-            rb.gravityScale = 0.1f;
-        }
 
     }
 }
