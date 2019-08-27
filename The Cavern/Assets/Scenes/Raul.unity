@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -540,6 +540,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 794144170090004256, guid: 1855c168fc60d3a4b9cf00d06756faba,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251165755622076328, guid: 1855c168fc60d3a4b9cf00d06756faba,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251165755622076328, guid: 1855c168fc60d3a4b9cf00d06756faba,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: d08c59e66dc443f4cb362ba47c74a3f5, type: 2}
+    - target: {fileID: -8785102908729822824, guid: 1855c168fc60d3a4b9cf00d06756faba,
+        type: 3}
+      propertyPath: friccion
+      value: 0.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1855c168fc60d3a4b9cf00d06756faba, type: 3}

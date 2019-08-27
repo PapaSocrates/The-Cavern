@@ -53,12 +53,14 @@ public class playermovement : MonoBehaviour
         {
             movleft = false;
             movright = true;
+            frenar = false;
         }
 
         else if (Input.GetKey(KeyCode.A))
         {
             movright = false;
             movleft = true;
+            frenar = false;
 
         }
 
@@ -116,8 +118,14 @@ public class playermovement : MonoBehaviour
 
         if (jump && grounded)
         {
+            rb.gravityScale = 2f;
             rb.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
             jump = false;
+        }
+
+        else if (grounded)
+        {
+            rb.gravityScale = 0.1f;
         }
     }
 }
