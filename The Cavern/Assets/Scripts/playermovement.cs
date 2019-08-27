@@ -71,8 +71,7 @@ public class playermovement : MonoBehaviour
         }
 
         if (rb.velocity.y < fallingpoint && !grounded && rb.velocity.y > -maxdropvelocity)
-        {
-            print("pasa");
+        {           
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y - dropvelocity);
         }
 
@@ -109,7 +108,6 @@ public class playermovement : MonoBehaviour
         {
             grounded = true;
         }
-
         else
         {
             grounded = false;
@@ -122,7 +120,6 @@ public class playermovement : MonoBehaviour
             rb.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
             jump = false;
         }
-
         else if (grounded)
         {
             rb.gravityScale = 0.1f;

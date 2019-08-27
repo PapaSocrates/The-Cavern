@@ -8,16 +8,11 @@ public class NextLevel : MonoBehaviour
     [SerializeField]
     public GameObject fuse;
 
-    void Start()
+    private void OnTriggerEnter2D(Collider2D player)
     {
-        
-    }
-
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.Space))
+        if (player.CompareTag("Player"))
         {
-            fuse.SetActive(true);           
+            fuse.SetActive(true);
         }
-    }    
+    }
 }
