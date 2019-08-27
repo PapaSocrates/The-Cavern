@@ -217,13 +217,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: 0.4
   fallingpoint: 4
-  dropvelocity: 0.25
+  dropvelocity: 0.15
   maxdropvelocity: 12
   aceleracion: 1.003
   maxvelocity: 3
   jumpforce: 9
   friccion: 0.9
-  raydistance: 0.65
+  raydistance: 0.1
   currentVelocity: 0
   playerLayer:
     serializedVersion: 2
