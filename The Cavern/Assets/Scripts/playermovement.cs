@@ -113,11 +113,11 @@ public class playermovement : MonoBehaviour
         }
 
         Debug.DrawRay(rayposition, raydirection * raydistance, Color.green);
-        Debug.DrawRay(rayposition + new Vector2(0.17f, 0), raydirection * raydistance, Color.red);
-        Debug.DrawRay(rayposition + new Vector2(-0.17f, 0), raydirection * raydistance, Color.cyan);
+        Debug.DrawRay(rayposition + new Vector2(0.30f, 0), raydirection * raydistance, Color.red);
+        Debug.DrawRay(rayposition + new Vector2(-0.30f, 0), raydirection * raydistance, Color.cyan);
         RaycastHit2D hitsuelo = Physics2D.Raycast(rayposition, raydirection, raydistance, groundLayer);
-        RaycastHit2D hitsuelo1 = Physics2D.Raycast(rayposition + new Vector2(0.17f, 0), raydirection, raydistance, groundLayer);
-        RaycastHit2D hitsuelo2 = Physics2D.Raycast(rayposition + new Vector2(-0.17f, 0), raydirection, raydistance, groundLayer);
+        RaycastHit2D hitsuelo1 = Physics2D.Raycast(rayposition + new Vector2(0.30f, 0), raydirection, raydistance, groundLayer);
+        RaycastHit2D hitsuelo2 = Physics2D.Raycast(rayposition + new Vector2(-0.30f, 0), raydirection, raydistance, groundLayer);
 
 
         if (hitsuelo.collider != null || hitsuelo1.collider != null || hitsuelo2.collider != null)
