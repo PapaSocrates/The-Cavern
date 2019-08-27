@@ -14,6 +14,7 @@ public class playermovement : MonoBehaviour
     public float jumpforce;
     public float friccion;
     public float raydistance;
+    public float currentVelocity;
     Vector2 rayposition;
     Vector2 raydirection;
     bool movright;
@@ -38,6 +39,8 @@ public class playermovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        currentVelocity = rb.velocity.x;
         if (!Input.GetKey(KeyCode.D) && (!Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.D) && (Input.GetKey(KeyCode.A))))
         {
             movright = false;
