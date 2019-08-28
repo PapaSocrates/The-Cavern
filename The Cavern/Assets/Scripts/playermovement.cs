@@ -164,7 +164,5 @@ public class playermovement : MonoBehaviour
             anim.SetBool("Jump", true);
             jump = false;
         }
-
-
     }
 }
