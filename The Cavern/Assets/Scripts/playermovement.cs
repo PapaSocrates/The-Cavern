@@ -39,7 +39,7 @@ public class playermovement : MonoBehaviour
         movleft = false;
         jump = false;
         frenar = false;
-        maxvelocity = 1.5f;
+        maxvelocity = 4f;
         anim.SetBool("Idle", true);
     }
 
@@ -65,7 +65,7 @@ public class playermovement : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 anim.SetBool("Sprint", true);
-                maxvelocity = 3f;
+                maxvelocity = 8f;
             }
             else if (grounded)
             {
@@ -83,7 +83,7 @@ public class playermovement : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 anim.SetBool("Sprint", true);
-                maxvelocity = 3f;
+                maxvelocity = 8f;
             }
             else if (grounded)
             {
@@ -101,7 +101,7 @@ public class playermovement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             anim.SetBool("Sprint", false);
-            maxvelocity = 1.5f;
+            maxvelocity = 4f;
         }
 
         if (rb.velocity.y < fallingpoint && !grounded && rb.velocity.y > -maxdropvelocity)
