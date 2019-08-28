@@ -23,7 +23,7 @@ public class playermovement : MonoBehaviour
     bool movleft;
     bool frenar;
     bool jump;
-    bool grounded;
+    public bool grounded;
     public LayerMask playerLayer;
     public LayerMask groundLayer;
 
@@ -122,6 +122,7 @@ public class playermovement : MonoBehaviour
 
         if (hitsuelo.collider != null || hitsuelo1.collider != null || hitsuelo2.collider != null)
         {
+            Globals.grounded =true;
             grounded = true;
             anim.SetBool("Jump", false);
             anim.SetBool("Walk", false);
@@ -129,6 +130,7 @@ public class playermovement : MonoBehaviour
         }
         else
         {
+            Globals.grounded = false;
             grounded = false;
             anim.SetBool("Idle", false);
             anim.SetBool("Walk", false);

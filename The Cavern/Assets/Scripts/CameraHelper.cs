@@ -8,6 +8,9 @@ public class CameraHelper : MonoBehaviour
 	public float zoom = 240f;
 	public bool usePixelScale = false;
 	public float pixelScale = 4f;
+    public float followSpeed;
+
+    
 
 	Vector3 cameraPos = Vector3.zero;
 
@@ -56,4 +59,6 @@ public class CameraHelper : MonoBehaviour
 	{
 		return cameraPos;
 	}
+
+
 }
