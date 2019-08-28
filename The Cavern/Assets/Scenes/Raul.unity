@@ -314,13 +314,15 @@ GameObject:
   m_Component:
   - component: {fileID: 538645573}
   - component: {fileID: 538645574}
+  - component: {fileID: 538645576}
+  - component: {fileID: 538645575}
   m_Layer: 8
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &538645573
 Transform:
   m_ObjectHideFlags: 0
@@ -329,8 +331,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538645572}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.67, y: 0.55, z: 0}
-  m_LocalScale: {x: 0.06125599, y: 0.06125599, z: 0.06125599}
+  m_LocalPosition: {x: 0.03, y: 0.63, z: 0}
+  m_LocalScale: {x: 0.07534799, y: 0.07534799, z: 0.07534799}
   m_Children: []
   m_Father: {fileID: 2800064254464753181}
   m_RootOrder: 1
@@ -370,8 +372,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1377912457
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a46174e787f0b6f4b8c8d95b0b8b8156, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -384,6 +386,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &538645575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538645572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f84c829582a604e9098d7a77b30840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPoint: {fileID: 248741102}
+  player: {fileID: 3266203284790998819}
+--- !u!95 &538645576
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538645572}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c1092186f324b8b48af4a9442634730b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &682795332
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06f47cc28f8b5354ab6bbd8a9c675aa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 248741102}
+  light: {fileID: 538645572}
 --- !u!1 &1237419984
 GameObject:
   m_ObjectHideFlags: 3
