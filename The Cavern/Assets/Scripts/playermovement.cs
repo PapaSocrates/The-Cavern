@@ -12,7 +12,7 @@ public class playermovement : MonoBehaviour
     public float dropvelocity;
     public float maxdropvelocity;
     public float aceleracion;
-    public float maxvelocity;
+    
     public float jumpforce;
     public float friccion;
     public float raydistance;
@@ -27,6 +27,7 @@ public class playermovement : MonoBehaviour
     public LayerMask playerLayer;
     public LayerMask groundLayer;
 
+    private float maxvelocity;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,7 @@ public class playermovement : MonoBehaviour
         movleft = false;
         jump = false;
         frenar = false;
+        maxvelocity = 1.5f;
         anim.SetBool("Idle", true);
     }
 
@@ -60,7 +62,12 @@ public class playermovement : MonoBehaviour
             movright = true;
             frenar = false;
             render.flipX = false;
-            if (grounded)
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                anim.SetBool("Sprint", true);
+                maxvelocity = 3f;
+            }
+            else if (grounded)
             {
                 anim.SetBool("Idle", false);
                 anim.SetBool("Walk", true);
@@ -73,7 +80,12 @@ public class playermovement : MonoBehaviour
             movleft = true;
             frenar = false;
             render.flipX = true;
-            if (grounded)
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                anim.SetBool("Sprint", true);
+                maxvelocity = 3f;
+            }
+            else if (grounded)
             {
                 anim.SetBool("Idle", false);
                 anim.SetBool("Walk", true);
@@ -84,6 +96,12 @@ public class playermovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W ) || Input.GetKeyDown(KeyCode.Space))
         {
             jump = true;          
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            anim.SetBool("Sprint", false);
+            maxvelocity = 1.5f;
         }
 
         if (rb.velocity.y < fallingpoint && !grounded && rb.velocity.y > -maxdropvelocity)
