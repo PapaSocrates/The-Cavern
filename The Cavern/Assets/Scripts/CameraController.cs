@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-	public CameraHelper cameraHelper;
-	public float movespeed ;
-    public GameObject target;
-    public Vector3 offset;
+    public CameraHelper cameraHelper;
+    public float movespeed = 0.1f;
 
-
+    Vector3 randomPos = Vector3.zero;
+    float randomTimer = 0f;
 
     void Update()
-	{
+    {
+        randomTimer -= Time.deltaTime;
 
-		Vector3 moveDir = (new Vector3 (target.transform.position.x + offset.x, target.transform.position.y + offset.y, target.transform.position.z) - cameraHelper.getCameraPos()).normalized;
-		cameraHelper.Move(moveDir * movespeed * Time.deltaTime);
-	}
-		
-	}
+        if (randomTimer <= 0f)
+        {
+            randomTimer = 2f;
+            randomPos = new Vector3(Random.Range(-5f, 5f), transform.position.z);
+
+        }
+        Vector3 moveDir = (randomPos - cameraHelper.getCameraPos()).normalized;
+        cameraHelper.Move(moveDir * movespeed * Time.deltaTime);
+    }
+
+}
 
 
 
