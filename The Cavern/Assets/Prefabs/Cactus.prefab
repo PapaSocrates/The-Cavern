@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 47857175912615641}
   - component: {fileID: 47857175912615638}
-  - component: {fileID: 47857175912615639}
   - component: {fileID: 47857175912615636}
+  - component: {fileID: 9183905991076218976}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Enemy
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 47857175912615637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.98, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.398, y: 0.398, z: 0.398}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -68,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -572023717
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7679083508794041174, guid: e86c574a570a5d945aad044f86c61154,
     type: 3}
@@ -83,32 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &47857175912615639
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47857175912615637}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.004210472, y: 1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.6875, y: 2}
-    newSize: {x: 1.6875, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.5611801, y: 2}
-  m_EdgeRadius: 0
 --- !u!95 &47857175912615636
 Animator:
   serializedVersion: 3
@@ -128,3 +102,40 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &9183905991076218976
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47857175912615637}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.6875, y: 2}
+    newSize: {x: 1.6875, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.15761639, y: 1.8905437}
+      - {x: -0.28974304, y: 1.2307466}
+      - {x: -0.67348444, y: 1.2550731}
+      - {x: -0.7145043, y: 0.6803394}
+      - {x: -0.27214536, y: 0.4097948}
+      - {x: -0.28970477, y: 0.012161744}
+      - {x: 0.26273638, y: 0.04054793}
+      - {x: 0.27219635, y: 0.48879942}
+      - {x: 0.7518531, y: 0.65673715}
+      - {x: 0.73429364, y: 1.2715899}
+      - {x: 0.34511688, y: 1.423647}
+      - {x: 0.14376363, y: 1.8905437}
