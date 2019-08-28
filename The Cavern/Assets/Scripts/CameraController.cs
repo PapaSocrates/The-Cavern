@@ -21,7 +21,7 @@ public class CameraController : MonoBehaviour
 
         }
         Vector3 moveDir = (randomPos - cameraHelper.getCameraPos()).normalized;
-        cameraHelper.Move(moveDir * movespeed * Time.deltaTime);
+        
     }
 
 }
