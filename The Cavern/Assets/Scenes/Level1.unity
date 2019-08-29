@@ -10375,20 +10375,5 @@ PrefabInstance:
       propertyPath: m_projectionMatrixMode
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7997340741279552470, guid: b7bfe600a3f83274e816e37db5df3744,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7997340741279552470, guid: b7bfe600a3f83274e816e37db5df3744,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7997340741279552470, guid: b7bfe600a3f83274e816e37db5df3744,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7bfe600a3f83274e816e37db5df3744, type: 3}
