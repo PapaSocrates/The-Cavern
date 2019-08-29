@@ -34,7 +34,7 @@ public class Intro : MonoBehaviour
             Application.Quit();
         }
         
-        if ((Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Space)) && menu)
+        if (Input.GetKeyDown(KeyCode.Return) && menu)
         {
             SceneManager.LoadScene(1);
         }

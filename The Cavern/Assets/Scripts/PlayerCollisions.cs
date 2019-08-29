@@ -6,6 +6,7 @@ public class PlayerCollisions : MonoBehaviour
 {
     [SerializeField]
     public GameObject light;
+    public GameObject lantern;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -13,5 +14,13 @@ public class PlayerCollisions : MonoBehaviour
         {
             light.SetActive(true);           
         }
-    }  
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag.Equals("LightOn"))
+        {
+            lantern.SetActive(true);
+        }
+    }
 }
