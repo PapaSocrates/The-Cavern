@@ -5,21 +5,26 @@ using UnityEngine;
 public class TextController : MonoBehaviour
 {
     private Animator anim;
+    private float timer;
     void Start()
     {
         anim = GetComponent<Animator>();
+        timer = 0;
+        Globals.move = false;
     }
     
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        timer += Time.deltaTime;
+        if (timer >= 5)
         {
-            anim.SetTrigger("Out");
+            anim.SetTrigger("Out");            
         }
     }
 
     public void disapear()
     {
         gameObject.SetActive(false);
+        Globals.move = true;
     }
 }
