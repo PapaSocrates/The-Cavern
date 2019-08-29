@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playermovement : MonoBehaviour
 {
+    public ParticleSystem groundHit;
     SpriteRenderer render;
     Animator anim;
     Rigidbody2D rb;
@@ -27,6 +28,7 @@ public class playermovement : MonoBehaviour
     public LayerMask playerLayer;
     public LayerMask groundLayer;
 
+    private bool hit;
     private float maxvelocity;
 
 
@@ -41,6 +43,7 @@ public class playermovement : MonoBehaviour
         frenar = false;
         maxvelocity = 4f;
         anim.SetBool("Idle", true);
+        hit = false;
     }
 
 
@@ -155,6 +158,7 @@ public class playermovement : MonoBehaviour
                 anim.SetBool("Jump", false);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Idle", true);
+                if (hit) { groundHit.Play(); hit = false; }
             }
             else
             {
@@ -163,6 +167,7 @@ public class playermovement : MonoBehaviour
                 anim.SetBool("Idle", false);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Jump", true);
+                hit = true;
             }
 
 
