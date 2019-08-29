@@ -99,7 +99,7 @@ public class playermovement : MonoBehaviour
             }
 
 
-            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.W) && (grounded) || Input.GetKeyDown(KeyCode.Space) && (grounded))
             {
                 jump = true;
             }
