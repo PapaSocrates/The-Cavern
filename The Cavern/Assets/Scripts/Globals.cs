@@ -5,4 +5,5 @@ using UnityEngine;
 public static class Globals
 {
     public static bool grounded;
+    public static bool move = true;
 }

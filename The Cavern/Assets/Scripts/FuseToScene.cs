@@ -7,6 +7,6 @@ public class FuseToScene : MonoBehaviour
 {
     public void loadScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
