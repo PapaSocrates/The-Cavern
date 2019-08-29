@@ -151,7 +151,7 @@ MonoBehaviour:
   dropvelocity: 0.14
   maxdropvelocity: 12
   aceleracion: 1.01
-  jumpforce: 8.5
+  jumpforce: 12
   friccion: 0.7
   raydistance: 0.15
   currentVelocity: 0
