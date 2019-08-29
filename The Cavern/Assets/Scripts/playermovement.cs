@@ -72,7 +72,7 @@ public class playermovement : MonoBehaviour
                 {
                     anim.SetBool("Sprint", true);
                     maxvelocity = 8f;
-                    jumpforce = 16f;
+                    jumpforce = 14f;
                 }
                 else if (grounded)
                 {
@@ -92,7 +92,7 @@ public class playermovement : MonoBehaviour
                 {
                     anim.SetBool("Sprint", true);
                     maxvelocity = 8f;
-                    jumpforce = 16f;
+                    jumpforce = 14f;
                 }
                 else if (grounded)
                 {
