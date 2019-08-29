@@ -312,7 +312,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -324,7 +324,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -348,7 +348,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -373,7 +373,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df13dec8aff07864a8b00f7f15634cae
+      spriteID: 84d71d9eaa16e4148b071bb8ad5796f7
       internalID: -2050213981397098445
       vertices: []
       indices: 
@@ -394,7 +394,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ab04bcffcbfe51468137d850fb122fb
+      spriteID: 545772e91fc4c024c8b4a03fc931a7a7
       internalID: 6710460667698214352
       vertices: []
       indices: 
@@ -415,7 +415,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 206f1377cb6a12048a7b461652995e83
+      spriteID: 0b85cce22b28868458bc55a524b85fcd
       internalID: -86518596225144940
       vertices: []
       indices: 
@@ -436,7 +436,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6066c881578634741a62f59367ce9d01
+      spriteID: 48be1ad521cca4e43a43518397ac3b23
       internalID: -4106554854905202606
       vertices: []
       indices: 
@@ -457,7 +457,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2215f38daddff8c449a41016f6bc7361
+      spriteID: bfd53f979537e584fb823f738c8e954b
       internalID: 8916160923976353050
       vertices: []
       indices: 
@@ -478,7 +478,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7b490a2f4d75b4418e04b7d1932e7bb
+      spriteID: f0d74d14a1cd27b4ea5b4c41cb7a003d
       internalID: -4435953933101854870
       vertices: []
       indices: 
@@ -499,7 +499,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c99220948a313c4fa25956365559ccd
+      spriteID: a7e6060a912fe8245a2ab76b49e734ca
       internalID: 5964800534340418723
       vertices: []
       indices: 
@@ -520,7 +520,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7542ae09c61cab14d98edd9c8ccab60f
+      spriteID: be6b024f28095bd48967f3f27b185f91
       internalID: -2812404133761874119
       vertices: []
       indices: 
@@ -541,7 +541,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b38dbdd4356e6184fb2002af4813f3d3
+      spriteID: efd78bf7f16a5b842ae3b534dc242986
       internalID: 7249965621469585845
       vertices: []
       indices: 
@@ -562,7 +562,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e44bc7c4617e67340bd8c118df1e398b
+      spriteID: dde31964cf90bc24b8c89e82942884b0
       internalID: -5004978904768028990
       vertices: []
       indices: 
@@ -583,7 +583,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc3d55c9aa263e94aa2d3d238792ed17
+      spriteID: 0848e5762290afe44afc77f12d1943fa
       internalID: -610888592463179405
       vertices: []
       indices: 
@@ -593,7 +593,7 @@ TextureImporter:
       name: tileset setas_11
       rect:
         serializedVersion: 2
-        x: 64
+        x: 160
         y: 168
         width: 16
         height: 16
@@ -604,7 +604,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9379d0c91842e14dbda312eee257b49
+      spriteID: 4efb977688173c149a46e3811377704c
       internalID: -6736852925814219500
       vertices: []
       indices: 
@@ -614,8 +614,8 @@ TextureImporter:
       name: tileset setas_12
       rect:
         serializedVersion: 2
-        x: 80
-        y: 168
+        x: 0
+        y: 152
         width: 16
         height: 16
       alignment: 0
@@ -625,7 +625,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0f2adfae7b609944a037e4c6efc5a7d
+      spriteID: 4b37a916586f8db42b4fe3a63f415641
       internalID: -6564350218545182562
       vertices: []
       indices: 
@@ -635,8 +635,8 @@ TextureImporter:
       name: tileset setas_13
       rect:
         serializedVersion: 2
-        x: 96
-        y: 168
+        x: 16
+        y: 152
         width: 16
         height: 16
       alignment: 0
@@ -646,7 +646,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ace354b4f0e969e48bad9dcccc2f1013
+      spriteID: 92b19b25360f6e5409576edd4f8c5da4
       internalID: -138462436737653021
       vertices: []
       indices: 
@@ -656,8 +656,8 @@ TextureImporter:
       name: tileset setas_14
       rect:
         serializedVersion: 2
-        x: 112
-        y: 168
+        x: 32
+        y: 152
         width: 16
         height: 16
       alignment: 0
@@ -667,7 +667,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 169806165adb6c34d814e9bbf5f3bfed
+      spriteID: 83686c2f75437d040b971eef73d8afe4
       internalID: 6267371507825468749
       vertices: []
       indices: 
@@ -677,8 +677,8 @@ TextureImporter:
       name: tileset setas_15
       rect:
         serializedVersion: 2
-        x: 128
-        y: 168
+        x: 64
+        y: 152
         width: 16
         height: 16
       alignment: 0
@@ -688,7 +688,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e369325f6db50d4499897e99edadb18
+      spriteID: 97183ddca214d5e408fb9d5d2b1e377f
       internalID: -2294743294330538423
       vertices: []
       indices: 
@@ -698,8 +698,8 @@ TextureImporter:
       name: tileset setas_16
       rect:
         serializedVersion: 2
-        x: 144
-        y: 168
+        x: 80
+        y: 152
         width: 16
         height: 16
       alignment: 0
@@ -709,7 +709,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2e6aa2ed51a7df4e9b92bc84dec1f93
+      spriteID: 072c2819a6b3bd2409d6cc2b61d45e12
       internalID: -3587048599972320049
       vertices: []
       indices: 
@@ -719,8 +719,8 @@ TextureImporter:
       name: tileset setas_17
       rect:
         serializedVersion: 2
-        x: 160
-        y: 168
+        x: 96
+        y: 152
         width: 16
         height: 16
       alignment: 0
@@ -730,7 +730,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b22a53920c41f3e48bef27725b47705d
+      spriteID: de020efc1f268b14fa164993d947c8d2
       internalID: 3557936867852734362
       vertices: []
       indices: 
@@ -740,7 +740,7 @@ TextureImporter:
       name: tileset setas_18
       rect:
         serializedVersion: 2
-        x: 0
+        x: 112
         y: 152
         width: 16
         height: 16
@@ -751,7 +751,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dedc75635c6e8341b6fbfc37017ac62
+      spriteID: ed2a6948d596f8041912f5318b3c2e7c
       internalID: -5657068060302690828
       vertices: []
       indices: 
@@ -761,7 +761,7 @@ TextureImporter:
       name: tileset setas_19
       rect:
         serializedVersion: 2
-        x: 16
+        x: 128
         y: 152
         width: 16
         height: 16
@@ -772,7 +772,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac9b489066788d149811d1b27385aa81
+      spriteID: 7dc21e7ffd2323f4b819409eb6bf5b9a
       internalID: 2360569714183483392
       vertices: []
       indices: 
@@ -782,7 +782,7 @@ TextureImporter:
       name: tileset setas_20
       rect:
         serializedVersion: 2
-        x: 32
+        x: 144
         y: 152
         width: 16
         height: 16
@@ -793,7 +793,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dbc5850c9db3d34fba2613dab24bafb
+      spriteID: a8fadf291b4ad16448408b299d92d064
       internalID: 2846449304652583073
       vertices: []
       indices: 
@@ -803,7 +803,7 @@ TextureImporter:
       name: tileset setas_21
       rect:
         serializedVersion: 2
-        x: 64
+        x: 160
         y: 152
         width: 16
         height: 16
@@ -814,7 +814,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e758c295dc7db4c469f6230d66dfdc9c
+      spriteID: d08a6474fbf38be4babe864f24d4b82c
       internalID: 2102614312290843552
       vertices: []
       indices: 
@@ -824,8 +824,8 @@ TextureImporter:
       name: tileset setas_22
       rect:
         serializedVersion: 2
-        x: 80
-        y: 152
+        x: 0
+        y: 136
         width: 16
         height: 16
       alignment: 0
@@ -835,7 +835,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33b3b3f113b79f94589da4628b95b086
+      spriteID: 9ed30bead5568c54a8ce43fc92de444a
       internalID: -3398530038185024600
       vertices: []
       indices: 
@@ -845,8 +845,8 @@ TextureImporter:
       name: tileset setas_23
       rect:
         serializedVersion: 2
-        x: 96
-        y: 152
+        x: 16
+        y: 136
         width: 16
         height: 16
       alignment: 0
@@ -856,7 +856,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 009e0002bdc93094797beaaef1fb99c3
+      spriteID: 84e63e349b05d1c408a70e1c8860f24d
       internalID: -3315636266295095484
       vertices: []
       indices: 
@@ -866,8 +866,8 @@ TextureImporter:
       name: tileset setas_24
       rect:
         serializedVersion: 2
-        x: 112
-        y: 152
+        x: 0
+        y: 120
         width: 16
         height: 16
       alignment: 0
@@ -877,7 +877,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4e345644a3ed824b85afc5d228b2522
+      spriteID: 57a4a36a55c3f8a4d9a8c3137e103bde
       internalID: 2687551707468281116
       vertices: []
       indices: 
@@ -887,8 +887,8 @@ TextureImporter:
       name: tileset setas_25
       rect:
         serializedVersion: 2
-        x: 128
-        y: 152
+        x: 16
+        y: 120
         width: 16
         height: 16
       alignment: 0
@@ -898,7 +898,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b79453703c3de844f844968a63a11627
+      spriteID: 33afc993adde52f4cb42b0ecaa5b124e
       internalID: 8088806198432758567
       vertices: []
       indices: 
@@ -908,8 +908,8 @@ TextureImporter:
       name: tileset setas_26
       rect:
         serializedVersion: 2
-        x: 144
-        y: 152
+        x: 32
+        y: 120
         width: 16
         height: 16
       alignment: 0
@@ -919,7 +919,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71e695101ac0e0044aadd8e41fcba9f7
+      spriteID: 53e338b06a42357469b77789299ec5b5
       internalID: -4283506008086163652
       vertices: []
       indices: 
@@ -929,8 +929,8 @@ TextureImporter:
       name: tileset setas_27
       rect:
         serializedVersion: 2
-        x: 160
-        y: 152
+        x: 144
+        y: 120
         width: 16
         height: 16
       alignment: 0
@@ -940,7 +940,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa36c2e52c48c564dab97951710382f5
+      spriteID: 03f2d472db1cf454eb839b89df8aa518
       internalID: 8500960222152851069
       vertices: []
       indices: 
@@ -950,8 +950,8 @@ TextureImporter:
       name: tileset setas_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 136
+        x: 160
+        y: 120
         width: 16
         height: 16
       alignment: 0
@@ -961,7 +961,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7596371829310de48a65f9d62616f7c6
+      spriteID: cb725e0d91a5c2546b9dcf1b8aeb0a1b
       internalID: -3331482300879378669
       vertices: []
       indices: 
@@ -971,8 +971,8 @@ TextureImporter:
       name: tileset setas_29
       rect:
         serializedVersion: 2
-        x: 16
-        y: 136
+        x: 176
+        y: 120
         width: 16
         height: 16
       alignment: 0
@@ -982,7 +982,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d89be569c867ed44be9bac479a75656
+      spriteID: f2393a0066402e343841a5594b81e39b
       internalID: 4325198251189705260
       vertices: []
       indices: 
@@ -992,8 +992,8 @@ TextureImporter:
       name: tileset setas_30
       rect:
         serializedVersion: 2
-        x: 64
-        y: 136
+        x: 0
+        y: 104
         width: 16
         height: 16
       alignment: 0
@@ -1003,7 +1003,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bca96d7e57176c458a05da1ce4e04ee
+      spriteID: afae96d112f3310459fbd915b6807cc6
       internalID: -3111867598747574223
       vertices: []
       indices: 
@@ -1013,8 +1013,8 @@ TextureImporter:
       name: tileset setas_31
       rect:
         serializedVersion: 2
-        x: 80
-        y: 136
+        x: 16
+        y: 104
         width: 16
         height: 16
       alignment: 0
@@ -1024,7 +1024,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 607a460cf9b2cd84b966de5d064a6c14
+      spriteID: 41b14c3e3329f8e4493aa5f7fc2323d2
       internalID: -4259541955626111196
       vertices: []
       indices: 
@@ -1034,8 +1034,8 @@ TextureImporter:
       name: tileset setas_32
       rect:
         serializedVersion: 2
-        x: 96
-        y: 136
+        x: 144
+        y: 104
         width: 16
         height: 16
       alignment: 0
@@ -1045,7 +1045,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aec19e73b8e74b4f8f26f7e6438ac8e
+      spriteID: ede5768f3a5b7f747a5df0513e0e1552
       internalID: -7174345755398864108
       vertices: []
       indices: 
@@ -1055,8 +1055,8 @@ TextureImporter:
       name: tileset setas_33
       rect:
         serializedVersion: 2
-        x: 112
-        y: 136
+        x: 160
+        y: 104
         width: 16
         height: 16
       alignment: 0
@@ -1066,7 +1066,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9008e7f70df0ab74eb502df5df8602c8
+      spriteID: 4861e2414e61b234b9dc66aeacca926e
       internalID: 3099719471155048868
       vertices: []
       indices: 
@@ -1076,8 +1076,8 @@ TextureImporter:
       name: tileset setas_34
       rect:
         serializedVersion: 2
-        x: 128
-        y: 136
+        x: 176
+        y: 104
         width: 16
         height: 16
       alignment: 0
@@ -1087,7 +1087,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8ced837681b3954dbfdbefaf2ab857d
+      spriteID: 7d3d4d20a8155cb4ebabec9fc173f704
       internalID: 716350773240866961
       vertices: []
       indices: 
@@ -1097,8 +1097,8 @@ TextureImporter:
       name: tileset setas_35
       rect:
         serializedVersion: 2
-        x: 144
-        y: 136
+        x: 16
+        y: 88
         width: 16
         height: 16
       alignment: 0
@@ -1108,7 +1108,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d885e316a585e647a69d9cef7584f09
+      spriteID: 504f73f962872d84485414a1ebf7bff5
       internalID: -7667583935833661919
       vertices: []
       indices: 
@@ -1118,8 +1118,8 @@ TextureImporter:
       name: tileset setas_36
       rect:
         serializedVersion: 2
-        x: 176
-        y: 136
+        x: 160
+        y: 88
         width: 16
         height: 16
       alignment: 0
@@ -1129,7 +1129,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8afd3bea100eed449a1548d8a56e07e2
+      spriteID: bb09628ba4c8a43458f9f43aca6fa40e
       internalID: 7821922178236901878
       vertices: []
       indices: 
@@ -1139,8 +1139,8 @@ TextureImporter:
       name: tileset setas_37
       rect:
         serializedVersion: 2
-        x: 0
-        y: 120
+        x: 176
+        y: 88
         width: 16
         height: 16
       alignment: 0
@@ -1150,7 +1150,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2ba34cdfc2dbcf41b09b14264fed1da
+      spriteID: 25b66bf5b18fe114fb9de80853567b66
       internalID: 3366439223127115857
       vertices: []
       indices: 
@@ -1160,8 +1160,8 @@ TextureImporter:
       name: tileset setas_38
       rect:
         serializedVersion: 2
-        x: 16
-        y: 120
+        x: 0
+        y: 72
         width: 16
         height: 16
       alignment: 0
@@ -1171,7 +1171,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68024056c8ba5cd42bd37add48d71429
+      spriteID: c8d69cfb08154044c851416e3e15b1af
       internalID: -4964001627757932937
       vertices: []
       indices: 
@@ -1181,8 +1181,8 @@ TextureImporter:
       name: tileset setas_39
       rect:
         serializedVersion: 2
-        x: 32
-        y: 120
+        x: 16
+        y: 72
         width: 16
         height: 16
       alignment: 0
@@ -1192,7 +1192,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd98242c90b76aa4a9e64092de35d770
+      spriteID: a3965c49be007594398d020f1c340991
       internalID: -616921190053001234
       vertices: []
       indices: 
@@ -1202,8 +1202,8 @@ TextureImporter:
       name: tileset setas_40
       rect:
         serializedVersion: 2
-        x: 64
-        y: 120
+        x: 32
+        y: 72
         width: 16
         height: 16
       alignment: 0
@@ -1213,7 +1213,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fe6f92ceaeb1334d87c22a73d25f968
+      spriteID: 2f8fdc783b4a62741b61cf91f1a08268
       internalID: -1082973612138968644
       vertices: []
       indices: 
@@ -1223,8 +1223,8 @@ TextureImporter:
       name: tileset setas_41
       rect:
         serializedVersion: 2
-        x: 80
-        y: 120
+        x: 64
+        y: 72
         width: 16
         height: 16
       alignment: 0
@@ -1234,7 +1234,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcb256076652dd24b89c28a44f782e0f
+      spriteID: c5682e96be248404cb291662bb04f885
       internalID: 7930979575271464846
       vertices: []
       indices: 
@@ -1244,8 +1244,8 @@ TextureImporter:
       name: tileset setas_42
       rect:
         serializedVersion: 2
-        x: 96
-        y: 120
+        x: 80
+        y: 72
         width: 16
         height: 16
       alignment: 0
@@ -1255,7 +1255,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c67dcffdb8be61c4184f1abbc6bfa581
+      spriteID: 820727eb2b4137c489610920deb531cc
       internalID: -4950617949005034228
       vertices: []
       indices: 
@@ -1265,8 +1265,8 @@ TextureImporter:
       name: tileset setas_43
       rect:
         serializedVersion: 2
-        x: 112
-        y: 120
+        x: 96
+        y: 72
         width: 16
         height: 16
       alignment: 0
@@ -1276,7 +1276,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcadfd620b2af0b49a57fa777ec7f83c
+      spriteID: 1b85588478fd9904c8e3c96cb16633a0
       internalID: -279421926996859819
       vertices: []
       indices: 
@@ -1286,8 +1286,8 @@ TextureImporter:
       name: tileset setas_44
       rect:
         serializedVersion: 2
-        x: 128
-        y: 120
+        x: 64
+        y: 56
         width: 16
         height: 16
       alignment: 0
@@ -1297,7 +1297,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bc0bce03f8edc74e8b5f9963dae0394
+      spriteID: ff12492d668513549a03a8c51f1f27a1
       internalID: 3070999732097894959
       vertices: []
       indices: 
@@ -1307,8 +1307,8 @@ TextureImporter:
       name: tileset setas_45
       rect:
         serializedVersion: 2
-        x: 144
-        y: 120
+        x: 80
+        y: 56
         width: 16
         height: 16
       alignment: 0
@@ -1318,7 +1318,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb19beacb4011684e848cd1895f0e8ac
+      spriteID: 9568c558f43ea924d8feaca029273076
       internalID: -5375824105753626881
       vertices: []
       indices: 
@@ -1328,8 +1328,8 @@ TextureImporter:
       name: tileset setas_46
       rect:
         serializedVersion: 2
-        x: 160
-        y: 120
+        x: 96
+        y: 56
         width: 16
         height: 16
       alignment: 0
@@ -1339,7 +1339,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64b678c9c20130746a57e7cafc097d31
+      spriteID: 64b5fb65775f47f42b3ee63406b5916c
       internalID: 1396429651499312248
       vertices: []
       indices: 
@@ -1349,8 +1349,8 @@ TextureImporter:
       name: tileset setas_47
       rect:
         serializedVersion: 2
-        x: 176
-        y: 120
+        x: 0
+        y: 40
         width: 16
         height: 16
       alignment: 0
@@ -1360,7 +1360,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0f966ddde12d1347b9f2bc0b1c86b87
+      spriteID: 50734e5e745d404448ca1003c1e1a3a3
       internalID: -1205632752550161747
       vertices: []
       indices: 
@@ -1370,8 +1370,8 @@ TextureImporter:
       name: tileset setas_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 104
+        x: 16
+        y: 40
         width: 16
         height: 16
       alignment: 0
@@ -1381,7 +1381,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 824b2575e39c54445ad84c6c6212d967
+      spriteID: 921c65c170736624db4757fd4f588e5c
       internalID: 7266921569218374620
       vertices: []
       indices: 
@@ -1391,8 +1391,8 @@ TextureImporter:
       name: tileset setas_49
       rect:
         serializedVersion: 2
-        x: 16
-        y: 104
+        x: 32
+        y: 40
         width: 16
         height: 16
       alignment: 0
@@ -1402,7 +1402,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36e5f398ae9f2594098cbef0ad2c2150
+      spriteID: 78b94e4a414f5c743aabf6266787a374
       internalID: 6483476339330495981
       vertices: []
       indices: 
@@ -1412,8 +1412,8 @@ TextureImporter:
       name: tileset setas_50
       rect:
         serializedVersion: 2
-        x: 144
-        y: 104
+        x: 160
+        y: 40
         width: 16
         height: 16
       alignment: 0
@@ -1423,7 +1423,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18350eb09cb50141a5e70b6eb78f7d7
+      spriteID: 3c89152a450356d45a99679ba95686d6
       internalID: 3711946953279310312
       vertices: []
       indices: 
@@ -1433,8 +1433,8 @@ TextureImporter:
       name: tileset setas_51
       rect:
         serializedVersion: 2
-        x: 160
-        y: 104
+        x: 0
+        y: 24
         width: 16
         height: 16
       alignment: 0
@@ -1444,7 +1444,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f5ac5ed44f47c948b776c741c0bb641
+      spriteID: ec7a4f2f62e817543b303d47bc17c1a7
       internalID: 5395387193881631176
       vertices: []
       indices: 
@@ -1454,8 +1454,8 @@ TextureImporter:
       name: tileset setas_52
       rect:
         serializedVersion: 2
-        x: 176
-        y: 104
+        x: 16
+        y: 24
         width: 16
         height: 16
       alignment: 0
@@ -1465,7 +1465,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c029a7a2a90df24bb324b0f2341f1a9
+      spriteID: ababd1c89aa7ad647815fc78b45dee8f
       internalID: -7513140253099841281
       vertices: []
       indices: 
@@ -1475,8 +1475,8 @@ TextureImporter:
       name: tileset setas_53
       rect:
         serializedVersion: 2
-        x: 0
-        y: 88
+        x: 32
+        y: 24
         width: 16
         height: 16
       alignment: 0
@@ -1486,7 +1486,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d612970b39b692b43bb4cfefad40a9f4
+      spriteID: cc56a63eecc87c547870bbdc4fd78d86
       internalID: 7110627705185335143
       vertices: []
       indices: 
@@ -1496,8 +1496,8 @@ TextureImporter:
       name: tileset setas_54
       rect:
         serializedVersion: 2
-        x: 16
-        y: 88
+        x: 64
+        y: 24
         width: 16
         height: 16
       alignment: 0
@@ -1507,7 +1507,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e166a8c3fe42f764e8207a85fb8fdb9b
+      spriteID: 9cd165328ec17f6439c05acd6ee337b1
       internalID: 6345487870179617953
       vertices: []
       indices: 
@@ -1517,8 +1517,8 @@ TextureImporter:
       name: tileset setas_55
       rect:
         serializedVersion: 2
-        x: 160
-        y: 88
+        x: 80
+        y: 24
         width: 16
         height: 16
       alignment: 0
@@ -1528,7 +1528,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e2f94d72e9cdac43ad83e47542d9f54
+      spriteID: b08c2baea78f5b84dbd292e8d0cf4381
       internalID: 2811209298634225524
       vertices: []
       indices: 
@@ -1538,8 +1538,8 @@ TextureImporter:
       name: tileset setas_56
       rect:
         serializedVersion: 2
-        x: 176
-        y: 88
+        x: 96
+        y: 24
         width: 16
         height: 16
       alignment: 0
@@ -1549,7 +1549,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a020db407e66b4a8fb362c9f786b07
+      spriteID: 3589c584a7fb10a42ac9bb99a37e0def
       internalID: -3184751843594322639
       vertices: []
       indices: 
@@ -1557,426 +1557,6 @@ TextureImporter:
       weights: []
     - serializedVersion: 2
       name: tileset setas_57
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ca5beacd15c9fd40bcd48bb82b74aaf
-      internalID: 26652559292613045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_58
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67b522839df83d14382bacd54e203f4a
-      internalID: 3270540421219125746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_59
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: baa3c0e04ce70ef49be868475640603a
-      internalID: -2745608498466712245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_60
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbde03187f5adc643b04aa8322547117
-      internalID: 2792454926558882087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_61
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d53aa81cfddf044593e46697780bb84
-      internalID: 2251211695718570388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_62
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98801f2695128ef48a03061b7fc6c399
-      internalID: -5887694120298397501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_63
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f83d5fc3f6609d42b48657f8556dba9
-      internalID: -7830365615982611249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_64
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ee908573bc152446b31c487cb74b443
-      internalID: 7618428706269096230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_65
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2851e00aef2a704a88415647144280e
-      internalID: 7982010404201446527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_66
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a6fbcaeeaa3d9246ae71dcfcbefe012
-      internalID: -2165665098221738988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_67
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65c86c0c6d02cf7469d7c17cb8c4ae15
-      internalID: -3994558555399441713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_68
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a78d7d57fd6db18418feadb8ae2b117a
-      internalID: 403134905499287521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_69
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1aec7163c57a454598a701a0aa86a45
-      internalID: 1407300825325577362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_70
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b11e44a7737e39b468c902d6c0bf7c7d
-      internalID: 106573045504930353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_71
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 268fc7d1b6e333246875a9fd7f90b943
-      internalID: 3192186884264501250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_72
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5de77d4aaf144384782a632b6f1a8888
-      internalID: 9119670911906075298
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_73
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3802e05c988731347adc7a23dec804aa
-      internalID: -8454955005464395670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_74
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c97943245b0dbba42973752679b83245
-      internalID: -1075076134761780347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_75
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ce4a5285193e68428b505c153b2fbc4
-      internalID: -8743596940581380443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_76
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8b9609589c606148986e49258d5da21
-      internalID: 2643873916747476877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset setas_77
       rect:
         serializedVersion: 2
         x: 128
@@ -1990,14 +1570,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b0f03d5456dc4e4fa6b13d7ee9578e4
-      internalID: 6629633070704498303
+      spriteID: 4cb0eb14d79644c4cab730aa41a613fb
+      internalID: 26652559292613045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset setas_78
+      name: tileset setas_58
       rect:
         serializedVersion: 2
         x: 160
@@ -2011,14 +1591,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35a5184c95b690b4ead811cb11c3a19d
-      internalID: -3764423196030792293
+      spriteID: 9da3c112e36de104ca9b938fb5e9c7ee
+      internalID: 3270540421219125746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset setas_79
+      name: tileset setas_59
       rect:
         serializedVersion: 2
         x: 0
@@ -2032,14 +1612,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eddb34f09e929314c9de68178123ee45
-      internalID: -700873172297434595
+      spriteID: 766665c02add97c44bb109cef7858fe9
+      internalID: -2745608498466712245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset setas_80
+      name: tileset setas_60
       rect:
         serializedVersion: 2
         x: 16
@@ -2053,14 +1633,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58b9e00d0a80e2d4aad4b802529a6b29
-      internalID: 2715745689760586809
+      spriteID: 832651873c15b0d45a450fca499fa955
+      internalID: 2792454926558882087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset setas_81
+      name: tileset setas_61
       rect:
         serializedVersion: 2
         x: 32
@@ -2074,14 +1654,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 121525b7bc3420e4db7d91d45b802a8f
-      internalID: 4712939927036284613
+      spriteID: 5067b2416d3f4f244a521eee67eaa0ca
+      internalID: 2251211695718570388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset setas_82
+      name: tileset setas_62
       rect:
         serializedVersion: 2
         x: 160
@@ -2095,8 +1675,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 618aa1bf6f664a4489c6740aeaad7745
-      internalID: -1961625747261801776
+      spriteID: aea3902a24dd57b4c86040791a51f1ef
+      internalID: -5887694120298397501
       vertices: []
       indices: 
       edges: []
