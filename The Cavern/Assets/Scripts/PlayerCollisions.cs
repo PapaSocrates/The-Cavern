@@ -14,6 +14,12 @@ public class PlayerCollisions : MonoBehaviour
         {
             light.SetActive(true);           
         }
+
+        if (collision.gameObject.tag.Equals("Bounce") && GetComponent<playermovement>().fall)
+        {
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
+            GetComponent<playermovement>().fall = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D col)
