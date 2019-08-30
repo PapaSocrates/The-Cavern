@@ -71,7 +71,7 @@ public class playermovement : MonoBehaviour
                 movright = true;
                 frenar = false;
                 render.flipX = false;
-                if (Input.GetKey(KeyCode.LeftShift))
+                if (Input.GetKeyDown(KeyCode.LeftShift))
                 {
                     anim.SetBool("Sprint", true);
                     maxvelocity = 8f;
@@ -115,7 +115,7 @@ public class playermovement : MonoBehaviour
                 frenar = false;
                 render.flipX = true;
 
-                if (Input.GetKey(KeyCode.LeftShift))
+                if (Input.GetKeyDown(KeyCode.LeftShift))
                 {
                     anim.SetBool("Sprint", true);
                     maxvelocity = 8f;
