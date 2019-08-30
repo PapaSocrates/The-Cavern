@@ -36,7 +36,7 @@ public class Menu : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Return) && menu)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
     }
 }
