@@ -48809,8 +48809,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: 79b1fd2d990884f449449aa293d935b3, type: 3}
-  - {fileID: 8300000, guid: 59494f2348e5762438939afdbf1cf324, type: 3}
+  - {fileID: 8300000, guid: d36489fc9d854f2498f295bff213971a, type: 3}
+  - {fileID: 8300000, guid: 9557753765e71ae49958f293c25cacea, type: 3}
   - {fileID: 8300000, guid: b30b1b70bc648d040ada9ae487e0c9f7, type: 3}
   - {fileID: 8300000, guid: 42f887cebbe0a63448e3eec8098d9bb8, type: 3}
   groundHit: {fileID: 1491586879}

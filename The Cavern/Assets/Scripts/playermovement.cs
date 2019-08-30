@@ -30,7 +30,7 @@ public class playermovement : MonoBehaviour
     public LayerMask playerLayer;
     public LayerMask groundLayer;
 
-    private bool hit;
+    private bool hit,walk;
     private float maxvelocity;
 
 
@@ -47,6 +47,7 @@ public class playermovement : MonoBehaviour
         maxvelocity = 4f;
         anim.SetBool("Idle", true);
         hit = false;
+        walk = false;
     }
 
 
@@ -60,6 +61,7 @@ public class playermovement : MonoBehaviour
                 movright = false;
                 movleft = false;
                 frenar = true;
+                //audio.Stop();
             }
 
 
@@ -69,16 +71,40 @@ public class playermovement : MonoBehaviour
                 movright = true;
                 frenar = false;
                 render.flipX = false;
-                if (Input.GetKeyDown(KeyCode.LeftShift))
+                if (Input.GetKey(KeyCode.LeftShift))
                 {
                     anim.SetBool("Sprint", true);
                     maxvelocity = 8f;
                     jumpforce = 14f;
+                    /*if (walk)
+                    {
+                        audio.Stop();
+                        walk = false;
+                        Debug.Log("Stop walk sound");
+                        Debug.Log(walk);
+                    }
+                    if (!audio.isPlaying)
+                    {
+                        audio.PlayOneShot(clips[1]);
+                        Debug.Log("Play sprint sound");
+                    }*/
                 }
                 else if (grounded)
                 {
                     anim.SetBool("Idle", false);
                     anim.SetBool("Walk", true);
+                    /*if (!walk)
+                    {
+                        audio.Stop();
+                        walk = true;
+                        Debug.Log("Stop sprint sound");
+                        Debug.Log(walk);
+                    }
+                    if (!audio.isPlaying)
+                    {
+                        audio.PlayOneShot(clips[0]);
+                        Debug.Log("Play walk sound");
+                    }*/
                 }
             }
 
@@ -89,19 +115,36 @@ public class playermovement : MonoBehaviour
                 frenar = false;
                 render.flipX = true;
 
-                if (Input.GetKeyDown(KeyCode.LeftShift))
+                if (Input.GetKey(KeyCode.LeftShift))
                 {
                     anim.SetBool("Sprint", true);
                     maxvelocity = 8f;
                     jumpforce = 14f;
+                    /*if (walk)
+                    {
+                        audio.Stop();
+                        walk = false;
+                    }
+                    if (!audio.isPlaying)
+                    {
+                        audio.PlayOneShot(clips[1]);
+                    }*/
                 }
                 else if (grounded)
                 {
                     anim.SetBool("Idle", false);
                     anim.SetBool("Walk", true);
+                    /*if (!walk)
+                    {
+                        audio.Stop();
+                        walk = true;
+                    }
+                    if (!audio.isPlaying)
+                    {
+                        audio.PlayOneShot(clips[0]);
+                    }*/
                 }
             }
-
 
             if (Input.GetKeyDown(KeyCode.W) && (grounded) || Input.GetKeyDown(KeyCode.Space) && (grounded))
             {
@@ -159,7 +202,13 @@ public class playermovement : MonoBehaviour
                 anim.SetBool("Jump", false);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Idle", true);
-                if (hit) { groundHit.Play(); audio.PlayOneShot(clips[3]); hit = false; }
+                if (hit)
+                {
+                    groundHit.Play();
+                    audio.Stop();
+                    audio.PlayOneShot(clips[3]);
+                    hit = false;
+                }
             }
             else
             {
@@ -174,6 +223,7 @@ public class playermovement : MonoBehaviour
 
             if (jump && grounded)
             {
+                audio.Stop();
                 audio.PlayOneShot(clips[2]);
                 rb.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
                 anim.SetBool("Idle", false);
