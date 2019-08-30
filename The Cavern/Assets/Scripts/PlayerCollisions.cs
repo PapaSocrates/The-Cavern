@@ -28,5 +28,9 @@ public class PlayerCollisions : MonoBehaviour
         {
             lantern.SetActive(true);
         }
+        if (col.gameObject.tag.Equals("LightOff"))
+        {
+            lantern.SetActive(false);
+        }
     }
 }
