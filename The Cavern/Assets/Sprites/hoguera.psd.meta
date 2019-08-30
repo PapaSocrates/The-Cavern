@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 6c3c2383bfdb9de42be774d0322fc701
+guid: e7b7ea341de893743ba960238ea61903
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8643283645009795802
-    second: mosquitosprite_0
+      213: -1969487659907432295
+    second: hoguera_0
   - first:
-      213: -7524810088112302019
-    second: mosquitosprite_1
+      213: -8609773481384441843
+    second: hoguera_1
   - first:
-      213: -6894279308759654044
-    second: mosquitosprite_2
+      213: -5103441746780456298
+    second: hoguera_2
   - first:
-      213: 8088286404347206837
-    second: mosquitosprite_3
+      213: 6033663986477528895
+    second: hoguera_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mosquitosprite_0
+      name: hoguera_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 2
-        width: 31
-        height: 36
+        x: 16
+        y: 8
+        width: 16
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f27d1651faa36c14ab3553b2eac5ca63
-      internalID: -8643283645009795802
+      spriteID: 2801729f854ba304fa80a80bcb16f9fc
+      internalID: -1969487659907432295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosquitosprite_1
+      name: hoguera_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 2
-        width: 40
-        height: 32
+        x: 48
+        y: 8
+        width: 16
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19deace238a0f824a994710760e490b5
-      internalID: -7524810088112302019
+      spriteID: b53fd3f2a86108a48a700d4d6a12797b
+      internalID: -8609773481384441843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosquitosprite_2
+      name: hoguera_2
       rect:
         serializedVersion: 2
-        x: 123
-        y: 5
-        width: 39
-        height: 29
+        x: 80
+        y: 8
+        width: 16
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d07fda6ab836cc249a426f09e28fcd98
-      internalID: -6894279308759654044
+      spriteID: eb563075fb293fc458499f470b78ea08
+      internalID: -5103441746780456298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosquitosprite_3
+      name: hoguera_3
       rect:
         serializedVersion: 2
-        x: 179
-        y: 4
-        width: 39
-        height: 28
+        x: 112
+        y: 8
+        width: 16
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dbce87b1480bd6418aaa0b7bc698e85
-      internalID: 8088286404347206837
+      spriteID: 20ae2e2db68b4f848921bedffebce548
+      internalID: 6033663986477528895
       vertices: []
       indices: 
       edges: []

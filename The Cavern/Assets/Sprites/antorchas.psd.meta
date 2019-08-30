@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 6c3c2383bfdb9de42be774d0322fc701
+guid: 949289c58dde043419c3ee639df4017e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8643283645009795802
-    second: mosquitosprite_0
+      213: 2123472892611539981
+    second: antorchas_0
   - first:
-      213: -7524810088112302019
-    second: mosquitosprite_1
+      213: 6738802294504091211
+    second: antorchas_1
   - first:
-      213: -6894279308759654044
-    second: mosquitosprite_2
+      213: -8439320071119713325
+    second: antorchas_2
   - first:
-      213: 8088286404347206837
-    second: mosquitosprite_3
+      213: -2201150306207015535
+    second: antorchas_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mosquitosprite_0
+      name: antorchas_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 2
-        width: 31
-        height: 36
+        x: 4
+        y: 8
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f27d1651faa36c14ab3553b2eac5ca63
-      internalID: -8643283645009795802
+      spriteID: a8ba0dc75b0187047bef9602889509f0
+      internalID: 2123472892611539981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosquitosprite_1
+      name: antorchas_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 2
-        width: 40
-        height: 32
+        x: 20
+        y: 8
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19deace238a0f824a994710760e490b5
-      internalID: -7524810088112302019
+      spriteID: cc8efcb9679d9f548b3d5feb3d1c27f5
+      internalID: 6738802294504091211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosquitosprite_2
+      name: antorchas_2
       rect:
         serializedVersion: 2
-        x: 123
-        y: 5
-        width: 39
-        height: 29
+        x: 36
+        y: 8
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d07fda6ab836cc249a426f09e28fcd98
-      internalID: -6894279308759654044
+      spriteID: f7af16f74ad7b8d46a67156808e3f756
+      internalID: -8439320071119713325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosquitosprite_3
+      name: antorchas_3
       rect:
         serializedVersion: 2
-        x: 179
-        y: 4
-        width: 39
-        height: 28
+        x: 52
+        y: 8
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dbce87b1480bd6418aaa0b7bc698e85
-      internalID: 8088286404347206837
+      spriteID: e442454dcd5590b4cb7ff3cd04db0f04
+      internalID: -2201150306207015535
       vertices: []
       indices: 
       edges: []
