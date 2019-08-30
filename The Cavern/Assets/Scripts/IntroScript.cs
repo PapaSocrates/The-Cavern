@@ -6,23 +6,38 @@ using UnityEngine.SceneManagement;
 
 public class IntroScript : MonoBehaviour
 {
-    VideoPlayer player;
+    [SerializeField]
+    GameObject gameIntro;
 
+    VideoPlayer player;
+    private bool game;
     void Start()
     {
         player = GetComponent<VideoPlayer>();
+        game = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+
         if (!player.isPlaying)
         {
-            SceneManager.LoadScene(1);
+            gameIntro.SetActive(true);
+            game = true;
         }
-        if (Input.GetKey(KeyCode.Escape))
+
+        if (player.isPlaying || gameIntro.GetComponent<VideoPlayer>().isPlaying)
         {
-            player.Stop();
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene(1);
+            }
+        }
+
+        if (!gameIntro.GetComponent<VideoPlayer>().isPlaying && game)
+        {
             SceneManager.LoadScene(1);
         }
     }
