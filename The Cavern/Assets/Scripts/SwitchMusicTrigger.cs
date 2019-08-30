@@ -10,7 +10,6 @@ public class SwitchMusicTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        theAM = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -25,6 +24,7 @@ public class SwitchMusicTrigger : MonoBehaviour
         {
             if (newTrack != null)
             {
+                theAM = FindObjectOfType<AudioManager>();
                 theAM.ChangeBGM(newTrack);
             }
         }
