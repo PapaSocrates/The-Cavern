@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class playermovement : MonoBehaviour
 {
+    public AudioClip[] clips;
     public ParticleSystem groundHit;
     SpriteRenderer render;
     Animator anim;
     Rigidbody2D rb;
+    AudioSource audio;
     public float velocity;
     public float fallingpoint;
     public float dropvelocity;
@@ -37,6 +39,7 @@ public class playermovement : MonoBehaviour
         render = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        audio = GetComponent<AudioSource>();
         movright = false;
         movleft = false;
         jump = false;
@@ -51,8 +54,6 @@ public class playermovement : MonoBehaviour
     {
         if (Globals.move)
         {
-
-
             currentVelocity = rb.velocity.x;
             if (!Input.GetKey(KeyCode.D) && (!Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.D) && (Input.GetKey(KeyCode.A))))
             {
@@ -158,7 +159,7 @@ public class playermovement : MonoBehaviour
                 anim.SetBool("Jump", false);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Idle", true);
-                if (hit) { groundHit.Play(); hit = false; }
+                if (hit) { groundHit.Play(); audio.PlayOneShot(clips[3]); hit = false; }
             }
             else
             {
@@ -173,6 +174,7 @@ public class playermovement : MonoBehaviour
 
             if (jump && grounded)
             {
+                audio.PlayOneShot(clips[2]);
                 rb.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
                 anim.SetBool("Idle", false);
                 anim.SetBool("Walk", false);
