@@ -29,6 +29,7 @@ public class playermovement : MonoBehaviour
     public bool grounded;
     public LayerMask playerLayer;
     public LayerMask groundLayer;
+    public bool fall;
 
     private bool hit,walk;
     private float maxvelocity;
@@ -48,6 +49,7 @@ public class playermovement : MonoBehaviour
         anim.SetBool("Idle", true);
         hit = false;
         walk = false;
+        fall = false;
     }
 
 
@@ -161,6 +163,11 @@ public class playermovement : MonoBehaviour
             if (rb.velocity.y < fallingpoint && !grounded && rb.velocity.y > -maxdropvelocity)
             {
                 rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y - dropvelocity);
+                if (jump)
+                {
+                    fall = true;
+                    jump = false;
+                }
             }
 
             rayposition = transform.position + new Vector3(0, 0.1f, 0);
@@ -228,8 +235,7 @@ public class playermovement : MonoBehaviour
                 rb.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
                 anim.SetBool("Idle", false);
                 anim.SetBool("Walk", false);
-                anim.SetBool("Jump", true);
-                jump = false;
+                anim.SetBool("Jump", true);                
             }
         }
     }
