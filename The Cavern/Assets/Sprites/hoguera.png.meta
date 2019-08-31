@@ -1,10 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 06c52316088178a4fa673ddffef21327
-TextureImporter:
-  internalIDToNameTable: []
-=======
-guid: e7b7ea341de893743ba960238ea61903
+guid: b47f39da98304f1409b4073a9184bd5a
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -19,7 +14,6 @@ TextureImporter:
   - first:
       213: 6033663986477528895
     second: hoguera_3
->>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -49,11 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: -1
-=======
     filterMode: 0
->>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -62,20 +52,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  spritePixelsToUnits: 100
-=======
   spritePixelsToUnits: 16
->>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,14 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-<<<<<<< HEAD
-    textureCompression: 1
-=======
-    textureCompression: 0
-=======
     textureCompression: 2
->>>>>>> c6a0d4cb575210366b67e1f6eb082080ee7c3d56
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -120,14 +95,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 0
->>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
-=======
     textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
@@ -136,12 +107,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
->>>>>>> c6a0d4cb575210366b67e1f6eb082080ee7c3d56
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -150,9 +120,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-    sprites: []
-=======
     sprites:
     - serializedVersion: 2
       name: hoguera_0
@@ -169,7 +136,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38363ba9e5e99044bb53b983060bdf49
+      spriteID: e5bfee5ca066a0c47b320f8fabb77175
       internalID: -1969487659907432295
       vertices: []
       indices: 
@@ -190,7 +157,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a86ae79b06373bb4ab4568f7964ec2ae
+      spriteID: 88dbbcc736c7eb841985d44a6fbbf788
       internalID: -8609773481384441843
       vertices: []
       indices: 
@@ -211,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecb70836e4d81ac48a93d7b184217b4f
+      spriteID: 4690196bafcad754fbfea83689f42bee
       internalID: -5103441746780456298
       vertices: []
       indices: 
@@ -232,13 +199,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26b884874597ac8498d67acc52197b2a
+      spriteID: 44f30bf4d378d6841b99b73558949a9f
       internalID: 6033663986477528895
       vertices: []
       indices: 
       edges: []
       weights: []
->>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
     outline: []
     physicsShape: []
     bones: []
@@ -251,11 +217,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-<<<<<<< HEAD
   pSDShowRemoveMatteOption: 0
-=======
-  pSDShowRemoveMatteOption: 1
->>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
   userData: 
   assetBundleName: 
   assetBundleVariant: 
