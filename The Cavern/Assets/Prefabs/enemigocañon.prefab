@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5015675718102827333}
   - component: {fileID: 5015675718102827334}
   - component: {fileID: 5790085511169817313}
+  - component: {fileID: -5070076865179359178}
   m_Layer: 0
   m_Name: "enemigoca\xF1on"
   m_TagString: Enemy
@@ -100,7 +101,7 @@ MonoBehaviour:
   bulletSpawner: {fileID: 5015675718519668754}
   bulletPrefab: {fileID: 793015430030775317, guid: 21d907d45fb7b3448a2b96f357b74a69,
     type: 3}
-  spawnRate: 1.5
+  spawnRate: 2
 --- !u!50 &5015675718102827334
 Rigidbody2D:
   serializedVersion: 4
@@ -141,6 +142,43 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &-5070076865179359178
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5015675718102827332}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6875, y: 2.125}
+    newSize: {x: 1.6875, y: 2.125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.65625, y: 1.0625}
+      - {x: 0.59721255, y: 1.0625}
+      - {x: -0.3900338, y: 1.0625}
+      - {x: -0.3147794, y: 0.09476054}
+      - {x: -0.85358965, y: 0.07926485}
+      - {x: -0.84375, y: -0.8125}
+      - {x: -0.53125, y: -1.0625}
+      - {x: 0.84375, y: -1.0625}
+      - {x: 0.55840254, y: -0.18428396}
+      - {x: 0.5387238, y: 0.58217907}
+      - {x: 0.56131697, y: 0.9704814}
+      - {x: 0.5416374, y: 1.0491977}
 --- !u!1 &5015675718519668753
 GameObject:
   m_ObjectHideFlags: 0
