@@ -55,122 +55,124 @@ public class playermovement : MonoBehaviour
 
     void Update()
     {
-        currentVelocity = rb.velocity.x;
-        if (!Input.GetKey(KeyCode.D) && (!Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.D) && (Input.GetKey(KeyCode.A))))
+        if (Globals.move)
         {
-            movright = false;
-            movleft = false;
-            frenar = true;
-            //audio.Stop();
-        }
-
-
-        else if (Input.GetKey(KeyCode.D))
-        {
-            movleft = false;
-            movright = true;
-            frenar = false;
-            render.flipX = false;
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            currentVelocity = rb.velocity.x;
+            if (!Input.GetKey(KeyCode.D) && (!Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.D) && (Input.GetKey(KeyCode.A))))
             {
-                anim.SetBool("Sprint", true);
-                maxvelocity = 8f;
-                jumpforce = 14f;
-                /*if (walk)
+                movright = false;
+                movleft = false;
+                frenar = true;
+                //audio.Stop();
+            }
+
+
+            else if (Input.GetKey(KeyCode.D))
+            {
+                movleft = false;
+                movright = true;
+                frenar = false;
+                render.flipX = false;
+                if (Input.GetKeyDown(KeyCode.LeftShift))
                 {
-                    audio.Stop();
-                    walk = false;
-                    Debug.Log("Stop walk sound");
-                    Debug.Log(walk);
+                    anim.SetBool("Sprint", true);
+                    maxvelocity = 8f;
+                    jumpforce = 14f;
+                    /*if (walk)
+                    {
+                        audio.Stop();
+                        walk = false;
+                        Debug.Log("Stop walk sound");
+                        Debug.Log(walk);
+                    }
+                    if (!audio.isPlaying)
+                    {
+                        audio.PlayOneShot(clips[1]);
+                        Debug.Log("Play sprint sound");
+                    }*/
                 }
-                if (!audio.isPlaying)
+                else if (grounded)
                 {
-                    audio.PlayOneShot(clips[1]);
-                    Debug.Log("Play sprint sound");
-                }*/
-            }
-            else if (grounded)
-            {
-                anim.SetBool("Idle", false);
-                anim.SetBool("Walk", true);
-                /*if (!walk)
-                {
-                    audio.Stop();
-                    walk = true;
-                    Debug.Log("Stop sprint sound");
-                    Debug.Log(walk);
+                    anim.SetBool("Idle", false);
+                    anim.SetBool("Walk", true);
+                    /*if (!walk)
+                    {
+                        audio.Stop();
+                        walk = true;
+                        Debug.Log("Stop sprint sound");
+                        Debug.Log(walk);
+                    }
+                    if (!audio.isPlaying)
+                    {
+                        audio.PlayOneShot(clips[0]);
+                        Debug.Log("Play walk sound");
+                    }*/
                 }
-                if (!audio.isPlaying)
-                {
-                    audio.PlayOneShot(clips[0]);
-                    Debug.Log("Play walk sound");
-                }*/
             }
-        }
 
-        else if (Input.GetKey(KeyCode.A))
-        {
-            movright = false;
-            movleft = true;
-            frenar = false;
-            render.flipX = true;
-
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            else if (Input.GetKey(KeyCode.A))
             {
-                anim.SetBool("Sprint", true);
-                maxvelocity = 8f;
-                jumpforce = 14f;
-                /*if (walk)
+                movright = false;
+                movleft = true;
+                frenar = false;
+                render.flipX = true;
+
+                if (Input.GetKeyDown(KeyCode.LeftShift))
                 {
-                    audio.Stop();
-                    walk = false;
+                    anim.SetBool("Sprint", true);
+                    maxvelocity = 8f;
+                    jumpforce = 14f;
+                    /*if (walk)
+                    {
+                        audio.Stop();
+                        walk = false;
+                    }
+                    if (!audio.isPlaying)
+                    {
+                        audio.PlayOneShot(clips[1]);
+                    }*/
                 }
-                if (!audio.isPlaying)
+                else if (grounded)
                 {
-                    audio.PlayOneShot(clips[1]);
-                }*/
-            }
-            else if (grounded)
-            {
-                anim.SetBool("Idle", false);
-                anim.SetBool("Walk", true);
-                /*if (!walk)
-                {
-                    audio.Stop();
-                    walk = true;
+                    anim.SetBool("Idle", false);
+                    anim.SetBool("Walk", true);
+                    /*if (!walk)
+                    {
+                        audio.Stop();
+                        walk = true;
+                    }
+                    if (!audio.isPlaying)
+                    {
+                        audio.PlayOneShot(clips[0]);
+                    }*/
                 }
-                if (!audio.isPlaying)
-                {
-                    audio.PlayOneShot(clips[0]);
-                }*/
             }
-        }
 
-        if (Input.GetKeyDown(KeyCode.W) && (grounded) || Input.GetKeyDown(KeyCode.Space) && (grounded))
-        {
-            jump = true;
-        }
-
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            anim.SetBool("Sprint", false);
-            maxvelocity = 4f;
-            jumpforce = 12f;
-        }
-
-        if (rb.velocity.y < fallingpoint && !grounded && rb.velocity.y > -maxdropvelocity)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y - dropvelocity);
-            if (jump)
+            if (Input.GetKeyDown(KeyCode.W) && (grounded) || Input.GetKeyDown(KeyCode.Space) && (grounded))
             {
-                fall = true;
-                jump = false;
+                jump = true;
             }
-        }
 
-        rayposition = transform.position + new Vector3(0, 0.1f, 0);
-        raydirection = -transform.up;
-        
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                anim.SetBool("Sprint", false);
+                maxvelocity = 4f;
+                jumpforce = 12f;
+            }
+
+            if (rb.velocity.y < fallingpoint && !grounded && rb.velocity.y > -maxdropvelocity)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y - dropvelocity);
+                if (jump)
+                {
+                    fall = true;
+                    jump = false;
+                }
+            }
+
+            rayposition = transform.position + new Vector3(0, 0.1f, 0);
+            raydirection = -transform.up;
+        }
     }
 
     private void FixedUpdate()
