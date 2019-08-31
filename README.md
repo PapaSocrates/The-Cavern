@@ -3,24 +3,19 @@ This game was made for a one week Game Jam in itch.io (Community Game Jam 2019),
 
 # Description
 
-The one and only protagonist of our game will show you:
--How with ​only one second you can find your way.
--How with ​only one screen you can make a level.
-But two game modes?
--Because there's only one programmer for each
+Our adventurer goes on a journey to find who he really is. 
+Will he find the truth? Will he see the light?
 
 # How to play
 
 Execute the .exe
 
-Your objective is to reach the bonfire
+Your objective is to reach the bonfire.
 
 # Inputs
 
 A,D for move.
 W or Space to jump.
-
-
 
 
 # Collaborators
