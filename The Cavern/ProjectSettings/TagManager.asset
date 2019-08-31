@@ -11,6 +11,8 @@ TagManager:
   - Bounce
   - LightOff
   - Ending
+  - WallLeft
+  - WallRight
   layers:
   - Default
   - TransparentFX
