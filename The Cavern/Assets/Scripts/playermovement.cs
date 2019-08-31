@@ -63,7 +63,6 @@ public class playermovement : MonoBehaviour
                 movright = false;
                 movleft = false;
                 frenar = true;
-                //audio.Stop();
             }
 
 
@@ -78,35 +77,11 @@ public class playermovement : MonoBehaviour
                     anim.SetBool("Sprint", true);
                     maxvelocity = 8f;
                     jumpforce = 14f;
-                    /*if (walk)
-                    {
-                        audio.Stop();
-                        walk = false;
-                        Debug.Log("Stop walk sound");
-                        Debug.Log(walk);
-                    }
-                    if (!audio.isPlaying)
-                    {
-                        audio.PlayOneShot(clips[1]);
-                        Debug.Log("Play sprint sound");
-                    }*/
                 }
                 else if (grounded)
                 {
                     anim.SetBool("Idle", false);
                     anim.SetBool("Walk", true);
-                    /*if (!walk)
-                    {
-                        audio.Stop();
-                        walk = true;
-                        Debug.Log("Stop sprint sound");
-                        Debug.Log(walk);
-                    }
-                    if (!audio.isPlaying)
-                    {
-                        audio.PlayOneShot(clips[0]);
-                        Debug.Log("Play walk sound");
-                    }*/
                 }
             }
 
@@ -122,29 +97,11 @@ public class playermovement : MonoBehaviour
                     anim.SetBool("Sprint", true);
                     maxvelocity = 8f;
                     jumpforce = 14f;
-                    /*if (walk)
-                    {
-                        audio.Stop();
-                        walk = false;
-                    }
-                    if (!audio.isPlaying)
-                    {
-                        audio.PlayOneShot(clips[1]);
-                    }*/
                 }
                 else if (grounded)
                 {
                     anim.SetBool("Idle", false);
                     anim.SetBool("Walk", true);
-                    /*if (!walk)
-                    {
-                        audio.Stop();
-                        walk = true;
-                    }
-                    if (!audio.isPlaying)
-                    {
-                        audio.PlayOneShot(clips[0]);
-                    }*/
                 }
             }
 
@@ -213,7 +170,7 @@ public class playermovement : MonoBehaviour
                 {
                     groundHit.Play();
                     audio.Stop();
-                    audio.PlayOneShot(clips[3]);
+                    audio.PlayOneShot(clips[1]);
                     hit = false;
                 }
             }
@@ -231,7 +188,7 @@ public class playermovement : MonoBehaviour
             if (jump && grounded)
             {
                 audio.Stop();
-                audio.PlayOneShot(clips[2]);
+                audio.PlayOneShot(clips[0]);
                 rb.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
                 Globals.grounded = false;
                 grounded = false;

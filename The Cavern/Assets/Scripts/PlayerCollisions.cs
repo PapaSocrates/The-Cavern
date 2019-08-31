@@ -8,11 +8,20 @@ public class PlayerCollisions : MonoBehaviour
     [SerializeField]
     public GameObject light;
     public GameObject lantern;
+    public AudioClip death;
+
+    AudioSource audio;
+
+    private void Start()
+    {
+        audio = GetComponent<AudioSource>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Enemy"))
         {
+            audio.PlayOneShot(death);
             light.SetActive(true);           
         }
 
