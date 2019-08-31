@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -62279,8 +62279,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: d36489fc9d854f2498f295bff213971a, type: 3}
-  - {fileID: 8300000, guid: 9557753765e71ae49958f293c25cacea, type: 3}
   - {fileID: 8300000, guid: b30b1b70bc648d040ada9ae487e0c9f7, type: 3}
   - {fileID: 8300000, guid: 42f887cebbe0a63448e3eec8098d9bb8, type: 3}
   groundHit: {fileID: 1491586879}
@@ -62412,6 +62410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   light: {fileID: 6678985920114163151}
   lantern: {fileID: 1650938735}
+  death: {fileID: 8300000, guid: 173ee98e4e2a35b44aafb560227cf8f9, type: 3}
 --- !u!1 &3266203285788903529
 GameObject:
   m_ObjectHideFlags: 0
