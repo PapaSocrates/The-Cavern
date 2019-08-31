@@ -29,6 +29,15 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
+        if (music.name == "Nivel4-6")
+        {
+            BGM.volume = 0.1f;
+        }
+        else
+        {
+            BGM.volume = 0.9f;
+        }
+
         BGM.Stop();
         BGM.clip = music;
 
