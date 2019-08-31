@@ -5,9 +5,12 @@ using UnityEngine;
 public class Mosquito : MonoBehaviour
 {
     private bool left;
+    SpriteRenderer render;
+
     void Start()
     {
         left = true;
+        render = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -15,11 +18,13 @@ public class Mosquito : MonoBehaviour
     {
         if (left)
         {
-            transform.Translate(new Vector3(-1,0,0));
+            transform.Translate(new Vector3(-5,0,0));
+            render.flipX = true;
         }
         else
         {
-            transform.Translate(new Vector3(1, 0, 0));
+            transform.Translate(new Vector3(5, 0, 0));
+            render.flipX = false;
         }
     }
 
