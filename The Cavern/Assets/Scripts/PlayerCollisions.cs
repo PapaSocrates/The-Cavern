@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCollisions : MonoBehaviour
 {
@@ -27,6 +28,15 @@ public class PlayerCollisions : MonoBehaviour
         if (col.gameObject.tag.Equals("LightOn"))
         {
             lantern.SetActive(true);
+        }
+        if (col.gameObject.tag.Equals("LightOff"))
+        {
+            lantern.SetActive(false);
+        }
+
+        if (col.gameObject.tag.Equals("Ending"))
+        {
+            SceneManager.LoadScene(8);
         }
     }
 }

@@ -9,6 +9,8 @@ TagManager:
   - Cueva
   - Limit
   - Bounce
+  - LightOff
+  - Ending
   layers:
   - Default
   - TransparentFX
