@@ -233,6 +233,8 @@ public class playermovement : MonoBehaviour
                 audio.Stop();
                 audio.PlayOneShot(clips[2]);
                 rb.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
+                Globals.grounded = false;
+                grounded = false;
                 anim.SetBool("Idle", false);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Jump", true);                
