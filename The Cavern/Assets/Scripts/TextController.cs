@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class TextController : MonoBehaviour
 {
+    [SerializeField]
+    GameObject secondText;
+
     private Animator anim;
     private float timer;
     void Start()
     {
         anim = GetComponent<Animator>();
         timer = 0;
-        Globals.move = false;
     }
     
     void Update()
@@ -25,6 +27,9 @@ public class TextController : MonoBehaviour
     public void disapear()
     {
         gameObject.SetActive(false);
-        Globals.move = true;
+        if (secondText != null)
+        {
+            secondText.SetActive(true);
+        }
     }
 }
