@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5015675718102827335}
   - component: {fileID: 5015675718102827333}
   - component: {fileID: 5015675718102827334}
+  - component: {fileID: 5790085511169817313}
   m_Layer: 0
   m_Name: "enemigoca\xF1on"
   m_TagString: Enemy
@@ -69,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1377912457
-  m_SortingLayer: 2
+  m_SortingLayerID: -717318953
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1756481648372005574, guid: 7aad2c9bd9dc7574d86b772de765414b,
     type: 3}
@@ -121,6 +122,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &5790085511169817313
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5015675718102827332}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e00e3a104df12a44a88f48b8c374150d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5015675718519668753
 GameObject:
   m_ObjectHideFlags: 0
