@@ -12,8 +12,6 @@ public class Ending : MonoBehaviour
     {
         player = GetComponent<VideoPlayer>();
     }
-
-
     void Update()
     {
         if (!player.isPlaying)
