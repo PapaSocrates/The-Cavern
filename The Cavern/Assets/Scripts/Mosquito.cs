@@ -13,17 +13,17 @@ public class Mosquito : MonoBehaviour
         render = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         if (left)
         {
-            transform.Translate(new Vector3(-5,0,0));
+            transform.Translate(-0.05f,0,0);
             render.flipX = true;
         }
         else
         {
-            transform.Translate(new Vector3(5, 0, 0));
+            transform.Translate(0.05f,0,0);
             render.flipX = false;
         }
     }
