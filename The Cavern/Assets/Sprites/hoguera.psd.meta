@@ -1,7 +1,25 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 06c52316088178a4fa673ddffef21327
 TextureImporter:
   internalIDToNameTable: []
+=======
+guid: e7b7ea341de893743ba960238ea61903
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1969487659907432295
+    second: hoguera_0
+  - first:
+      213: -8609773481384441843
+    second: hoguera_1
+  - first:
+      213: -5103441746780456298
+    second: hoguera_2
+  - first:
+      213: 6033663986477528895
+    second: hoguera_3
+>>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +49,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: -1
+=======
+    filterMode: 0
+>>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +62,20 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 1
+=======
+  spriteMode: 2
+>>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 100
+=======
+  spritePixelsToUnits: 16
+>>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +93,35 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 1
+=======
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+>>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -72,7 +130,95 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites: []
+=======
+    sprites:
+    - serializedVersion: 2
+      name: hoguera_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2801729f854ba304fa80a80bcb16f9fc
+      internalID: -1969487659907432295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoguera_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53fd3f2a86108a48a700d4d6a12797b
+      internalID: -8609773481384441843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoguera_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb563075fb293fc458499f470b78ea08
+      internalID: -5103441746780456298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoguera_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ae2e2db68b4f848921bedffebce548
+      internalID: 6033663986477528895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
     outline: []
     physicsShape: []
     bones: []
@@ -85,7 +231,11 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
+<<<<<<< HEAD
   pSDShowRemoveMatteOption: 0
+=======
+  pSDShowRemoveMatteOption: 1
+>>>>>>> c91567307237651eec66e7a70bf8fa91522e3bc6
   userData: 
   assetBundleName: 
   assetBundleVariant: 
