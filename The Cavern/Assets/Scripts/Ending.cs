@@ -20,5 +20,13 @@ public class Ending : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+
+        if (player.isPlaying)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene(1);
+            }
+        }
     }
 }
