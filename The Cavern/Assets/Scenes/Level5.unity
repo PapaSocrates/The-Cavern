@@ -1533,7 +1533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1772,7 +1772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26a301109addac419e5e40c59a10e62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondText: {fileID: 0}
+  secondText: {fileID: 1010028199}
 --- !u!95 &1068284170
 Animator:
   serializedVersion: 3
