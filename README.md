@@ -1,5 +1,5 @@
 # GameJam
-This game was made for a 2 days Game Jam in itch.io (GMTK Game Jam 2019), started in 2/4/2019. 
+This game was made for a one week Game Jam in itch.io (Community Game Jam 2019), started in 24/8/2019. 
 
 # Description
 
@@ -13,19 +13,14 @@ But two game modes?
 
 Execute the .exe
 
-For the maze you have 1 minute to scape from it. Your objective is to get the key, for that, you 
-will see the maze only 1 second.
-
-For the platformer you will be able to see the level only 1 second, after that, you have to reach 
-the key to advance to the next level until you reach the last one.
+Your objective is to reach the bonfire
 
 # Inputs
 
-- Maze
-W,A,S,D for move
+A,D for move.
+W or Space to jump.
 
--Jump platformer
-W,A,S,D for move
+
 
 
 # Collaborators
@@ -36,4 +31,4 @@ W,A,S,D for move
 
 # Github Repository
 
-- https://github.com/Avilgor/GameJam
+- https://github.com/PapaSocrates/The-Cavern
