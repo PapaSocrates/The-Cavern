@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -715,7 +715,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430789820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -84.43952, y: -4.6005735, z: -10.463061}
+  m_LocalPosition: {x: 45.34, y: -21.55, z: -10.463061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 170394768}
@@ -3226,7 +3226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226821763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -90.99, y: -4.53, z: -10.463061}
+  m_LocalPosition: {x: 45.34, y: -21.55, z: -10.463061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 216590937}
@@ -58185,13 +58185,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 21.695957, y: -18.61601}
+    - - {x: -44.838604, y: -9.063891}
+      - {x: -38.98786, y: -18.140047}
+      - {x: 21.695957, y: -18.61601}
       - {x: 21.681164, y: -29.309406}
       - {x: 89.85167, y: -29.070211}
       - {x: 89.90926, y: 18.51543}
       - {x: 34.98956, y: 18.319862}
       - {x: -99.72858, y: 18.935917}
-      - {x: -100.127045, y: -18.049566}
+      - {x: -99.69934, y: -9.121242}
 --- !u!4 &2022365230
 Transform:
   m_ObjectHideFlags: 0
@@ -58614,7 +58616,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3266203285788903529}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -90.99, y: -3.97, z: -0.46306098}
+  m_LocalPosition: {x: 45.34, y: -20.99, z: -0.46306098}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5317981214257749244}
