@@ -6,4 +6,5 @@ public static class Globals
 {
     public static bool grounded;
     public static bool move = true;
+    public static bool stopMusic = false;
 }

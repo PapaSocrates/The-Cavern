@@ -31,6 +31,10 @@ public class AudioManager : MonoBehaviour
 
         BGM.Stop();
         BGM.clip = music;
-        BGM.Play();
+
+        if (!Globals.stopMusic)
+        {
+            BGM.Play();
+        }
     }
 }
