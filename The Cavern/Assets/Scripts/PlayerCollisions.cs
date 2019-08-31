@@ -37,7 +37,7 @@ public class PlayerCollisions : MonoBehaviour
         if (col.gameObject.tag.Equals("Ending"))
         {
             Globals.stopMusic = true;
-            SceneManager.LoadScene(8);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         }
     }
 }
